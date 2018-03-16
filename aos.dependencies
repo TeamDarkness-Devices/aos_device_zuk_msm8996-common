@@ -1,0 +1,16 @@
+[
+  {
+    "repository" : "DD3Boh/android_kernel_zuk_msm8996",
+    "target_path": "kernel/zuk/msm8996",
+    "branch"     : "lineage-15.1"
+  },
+  {
+    "repository" : "aos_vendor_zuk",
+    "target_path": "vendor/zuk"
+  },
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch"     : "lineage-15.1"
+  }
+]

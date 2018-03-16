@@ -68,8 +68,8 @@ debug.gralloc.enable_fb_ubwc=1
 debug.sf.latch_unsignaled=1
 persist.hwc.enable_vds=1
 ro.opengles.version=196610
-ro.sf.lcd_density=480
 sdm.debug.disable_skip_validate=1
+ro.sf.lcd_density=380
 sdm.perf_hint_window=50
 
 # GPS
@@ -161,3 +161,11 @@ persist.timed.enable=true
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# Higher fling velocities
+# for smoother scrolling and better responsiveness
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
+# Team Darkness
+ro.aos.maintainer=Shubh Mehtani
